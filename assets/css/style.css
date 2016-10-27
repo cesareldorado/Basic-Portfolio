@@ -1,4 +1,58 @@
-#pic 1 { float : left; 
-	height : 200px; width : 300px}
-header { background: #4aaaa5 ; width : 200px; }
-#aside { float : right; }
+body {background : url(assets/images/old_moon.png)
+} 
+header { background : #4aaaa5;
+	color : #ffffff;
+	width : 200px ;
+	font-family : 'georgia', Times, 'Times New Roman', serif;
+}
+h3 { background : #4aaaa5;
+	color : #ffffff;
+	width : 300px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;	
+}
+p { float : left
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+#pic1 { height : 200px;
+		width : 150px; 
+		float: left;
+}
+#top {  float : right;
+		position : absolute
+		top : 100px;
+		right : 100px
+		width : 960px;
+}
+
+h2   { color : #4aaaa5;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+#middle { float : left; 
+	width: 960px;}
+footer {float : left;
+	background : #666666;
+	color : #ffffff;
+	width : 960px ;
+	height : 50px ;
+	padding-top: 50px;
+	border-top : #4aaaa5;
+	text-align: center;
+}
+#aside { margin-left : 500px;
+	margin-bottom : 700px;
+}
+#rock { width : 300px;
+	    float : left;
+}
+#rutgers {width :300px;
+	float : left;
+}
+#trivia {width :300px;
+	float : left;
+}
+#RPG {width : 300px;
+	float : left;
+}
+#hangman {width : 300px;
+	float : left;
+}
